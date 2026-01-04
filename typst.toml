@@ -1,0 +1,16 @@
+[package]
+name = "pinjong-mall"
+version = "0.0.1"
+entrypoint = "lib.typ"
+authors = ["Gunne, Texas, Vincent <@pinjong>"]
+license = "***"
+description = "Pinjongs rapportmall"
+repository = "https://pinjong.nu"
+keywords = ["report", "non-fiction", "basic"]
+categories = ["paper", "report"]
+exclude = ["template/main.pdf", "template/mainCompact.pdf"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
